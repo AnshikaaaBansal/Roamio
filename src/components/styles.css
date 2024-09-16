@@ -1,0 +1,166 @@
+.modes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    margin: 10px 0px;
+}
+
+.modes img {
+    width: 10vw;
+}
+
+body {
+    background-color: #E1F7F5;
+}
+
+.trans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 800;
+    color: #111;
+    text-decoration: none;
+}
+
+.trans:hover {
+    background-color: aliceblue;
+}
+
+.where {
+    background-image: url(./flight_booking_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    padding-top: 6vw;
+    font-weight: bold;
+    padding-left: 10vw;
+}
+
+.bookbox {
+    width: 80vw;
+    height: 35vw;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.from,
+.to,
+.fdate,
+.tdate,
+.persons {
+    display: flex;
+    flex-direction: column;
+}
+
+.from label,
+.to label,
+.fdate label,
+.tdate label,
+.persons label {
+    font-size: 3vw;
+}
+
+.from select,
+.to select,
+.fdate input,
+.tdate input,
+.persons input {
+    appearance: none;
+    border: 0;
+    outline: none;
+    font-size: 2vw;
+}
+
+.fromto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #111;
+    width: 70vw;
+    border-radius: 5px;
+    margin-left: 5vw;
+    gap: 25vw;
+    padding: 3vw 0;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    border: 2px solid #111;
+    width: 70vw;
+    border-radius: 5px;
+    margin-left: 5vw;
+    padding: 3vw 0;
+}
+
+.results1 img,
+.results2 img,
+.results3 img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.results1 h4,
+.results2 h4,
+.results3 h4 {
+    font-size: 1.5vw;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 3px 22px;
+    margin: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    color: #222831;
+    cursor: pointer;
+}
+
+.results1 h5,
+.results2 h5,
+.results3 h5 {
+    font-size: 1.3vw;
+    color: rgb(101, 107, 107);
+}
+
+.results1 p,
+.results2 p,
+.results3 p {
+    font-size: 1.3vw;
+}
+
+.results1,
+.results2,
+.results3 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10vw;
+    border: 2px solid #111;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    padding: 2vw 1vw;
+    margin-bottom: 2.5vw;
+}
+
+.result1 {
+    display: none;
+}
+
+.result2 {
+    display: block;
+}
